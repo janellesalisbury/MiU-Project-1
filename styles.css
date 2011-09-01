@@ -1,0 +1,57 @@
+/* Janelle Salisbury */
+/* Mobile Interfaces and Usability */
+/* 1109 */
+/* Project 1 */
+
+body {
+   font-family: Helvetica, Arial, Times, sans-serif; 
+   padding: 15px;
+   margin: 10 px top;
+   font-style: normal;
+   text-transform: capitalize;
+}
+
+h1 {
+color: #6495ED;
+border: 1px solid black;
+width: 250px;
+background-color: #DCDCDC;
+text-align: center;
+box-shadow: 3px 3px 1px rgba (0,0,0,0.5);
+}
+
+/* Saved the above code to github */
+
+fieldset{
+background-color: #E0FFFF;
+text-align: default; 
+}
+
+legend{
+border: 1px dotted black;
+text-align: center;
+}
+
+label{
+font-weight: bold;
+display: inline;
+line-height: 1.2em;
+}
+
+/*saved here*/
+
+input{
+text-decoration: none;
+}
+
+textarea{
+width: 100px;
+height: 150px;
+}
+
+select{
+font-style: italic;
+margin: none;
+}
+
+/* Saved here, completed CSS */

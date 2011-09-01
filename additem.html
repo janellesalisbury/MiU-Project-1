@@ -1,0 +1,85 @@
+<!-- Janelle Salisbury-->
+<!-- Mobile Interfaces and Usability --> 
+<!-- 1109-->
+<!-- Project 1 -->
+
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+      <meta charset= "utf-8">
+      <!-- Title of Project -->
+      <title> Car Parts I need</title>
+      <meta name = "Janelle Salisbury" content = "Parts">
+      
+      <link rel ="stylesheet" href ="styles.css">
+    </head>
+    
+    <body>
+    <div id= "container">
+       <div id ="header">
+       <form action = "#">
+          <fieldset> <!-- data inside fieldset --> 
+             <legend>Add Items</legend>
+             <div class = "margin" id ="main">
+             
+                <h1>Add Parts</h1>
+                <h2>Select Category</h2>
+           
+                <select>
+                   <option value = "brakes">Brakes</option>
+                   <option value = "engine">Engine</option>
+                   <option value = "body">Body</option>
+                   <option value = "lighting">Lighting</option>
+                   <option value = "interior">Interior</option>
+                
+                </select>
+           
+                <h2>Item Information:</h2>
+                
+                <!-- labels/inputs-->
+                <dl>
+                <dt><label for = "name">Name</label> 
+                <dt><input type = "text" id = "name" name = "name"/>
+                
+                <dt><label for = "date">Date</label> 
+                <dt><input type = "number" id = "date" name = "quantity"/>
+                
+                <dt><label for = "quantity">Quantity</label> 
+                <dt><input type = "range" min = "1" max = "10" id = "quantity" name = "quantity" type = "range"/>
+                
+                <dt><label for = "purchased">Purchased:</label> 
+                <dt><input type = "checkbox" id= "purchased" name = "purchased" type = "checkbox"/>
+                
+                <dt><label for = "notes">Notes:</label> 
+                <dt><textarea name = "notes" id= "notes">put notes here</textarea>
+
+                <!-- submit button--> 
+                <dt><input type = "submit" value = "submit" onSubmit = "storeItems()"; /> 
+                </dl> 
+        </div>                       
+        </fieldset>
+        <script src ="main.js"</script>
+        <script> getItems() </script>      
+     </form>
+    </body>
+</html>
+       
+       
+       
+       
+       
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
