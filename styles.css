@@ -59,7 +59,9 @@ input.cta{
 font-size: 200%;
 color:#73d7fc ;
 border: 3 px solid blue;
+width: 300 px;
 background-color: #4169E1;
+text-align: center;
 }
 
 /* Saved here, completed CSS */
