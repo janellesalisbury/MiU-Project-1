@@ -13,11 +13,12 @@ body {
 
 h1 {
 color: #6495ED;
-border: 1px solid black;
+border: 3px solid black;
 width: 250px;
 background-color: #DCDCDC;
 text-align: center;
 box-shadow: 3px 3px 1px rgba (0,0,0,0.5);
+margin: 10 px;
 }
 
 /* Saved the above code to github */
